@@ -1,11 +1,11 @@
-# 🚀 KirimAja
+# 🚀 Brostman
 
-**KirimAja** adalah aplikasi desktop native yang dibuat dengan Rust, terinspirasi dari Postman, Apidog, dan Hoppscotch.  
+**Brostman** adalah aplikasi desktop native yang dibuat dengan Rust, terinspirasi dari Postman, Apidog, dan Hoppscotch.  
 Tujuan utamanya adalah untuk mengirim dan mengelola HTTP request dengan antarmuka grafis sederhana namun powerful.
 
 > 📌 **Disclaimer**:  
 > Project ini dibuat sebagai _learning journey_ gue untuk belajar bahasa Rust.  
-> Gue baru mulai belajar, dan KirimAja ini adalah studi kasus pertama gue:  
+> Gue baru mulai belajar, dan Brostman ini adalah studi kasus pertama gue:  
 > **membangun aplikasi desktop mirip Postman tapi versi native, ringan, dan open source**.
 
 ---
@@ -36,7 +36,7 @@ Tujuan utamanya adalah untuk mengirim dan mengelola HTTP request dengan antarmuk
 ## 🛠️ Cara Menjalankan
 
 ```bash
-git clone https://github.com/username/KirimAja.git
+git clone https://github.com/username/Brostman.git
 cd KirimAja
 cargo run
 ```

@@ -1,12 +1,12 @@
 use eframe::egui;
 
-pub struct KirimAjaApp {
+pub struct BrostmanApp {
     pub url: String,
     pub method: String,
     pub response: String,
 }
 
-impl Default for KirimAjaApp {
+impl Default for BrostmanApp {
     fn default() -> Self {
         Self {
             url: String::from("https://jsonplaceholder.typicode.com/posts/1"),
@@ -16,7 +16,7 @@ impl Default for KirimAjaApp {
     }
 }
 
-impl eframe::App for KirimAjaApp {
+impl eframe::App for BrostmanApp {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         egui::CentralPanel::default().show(ctx, |ui| {
             ui.horizontal(|ui| {
