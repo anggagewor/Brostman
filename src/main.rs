@@ -1,8 +1,18 @@
-mod app;
+mod brostman_app;
 mod http;
-use app::BrostmanApp;
+use eframe::{self, Theme};
+
 
 fn main() -> eframe::Result<()> {
-    let options = eframe::NativeOptions::default();
-    eframe::run_native("Brostman", options, Box::new(|_cc| Box::new(BrostmanApp::default())))
+    let native_options = eframe::NativeOptions {
+        follow_system_theme: true,
+        default_theme: Theme::Light,
+        ..Default::default()
+    };
+
+    eframe::run_native(
+        "Brostman",
+        native_options,
+        Box::new(|_cc| Box::new(brostman_app::BrostmanApp::default())),
+    )
 }
