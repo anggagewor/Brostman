@@ -40,6 +40,16 @@ git clone https://github.com/username/KirimAja.git
 cd KirimAja
 cargo run
 ```
+Butuh: Rust & Cargo (minimal versi 1.70), dan libssl-dev kalau pakai Linux.
+
+## 📸 Screenshot (optional)
+
+Belum tersedia — coming soon!
+
+## 🙏 Kontribusi & Saran
+
+Karena ini masih early-stage project sambil belajar, semua feedback & saran sangat diterima.
+Kalau mau bantuin, feel free buka issue atau pull request ya!
 
 ## 📜 Lisensi
 
