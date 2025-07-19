@@ -37,7 +37,7 @@ Tujuan utamanya adalah untuk mengirim dan mengelola HTTP request dengan antarmuk
 
 ```bash
 git clone https://github.com/username/Brostman.git
-cd KirimAja
+cd Brostman
 cargo run
 ```
 Butuh: Rust & Cargo (minimal versi 1.70), dan libssl-dev kalau pakai Linux.
@@ -53,6 +53,6 @@ Kalau mau bantuin, feel free buka issue atau pull request ya!
 
 ## 📜 Lisensi
 
-KirimAja dirilis di bawah lisensi MIT – silakan digunakan, dimodifikasi, dan dikembangkan secara bebas.
+Brostman dirilis di bawah lisensi MIT – silakan digunakan, dimodifikasi, dan dikembangkan secara bebas.
 
 Lihat file [LICENSE](./LICENSE) untuk detail lengkapnya.
